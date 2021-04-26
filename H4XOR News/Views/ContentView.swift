@@ -28,8 +28,9 @@ struct ContentView: View {
                     })
                 
             }
-            .navigationBarTitle("H4XOR NEWS")
+            .navigationBarTitle("H4XOR NEWS", displayMode: .inline)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
         // onAppear - like the viewDidLoad. Performs when the body view appears on screen
         .onAppear(perform: {
             networkManager.fetchData()

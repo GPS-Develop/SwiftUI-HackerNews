@@ -28,6 +28,7 @@
 		93C2878E26365A080038A18E /* postData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postData.swift; sourceTree = "<group>"; };
 		93C28793263666FD0038A18E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		93C2879626366C630038A18E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		93C2879926366FF70038A18E /* H4XOR News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4XOR News.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		93C28775263654E50038A18E /* H4XOR News */ = {
 			isa = PBXGroup;
 			children = (
+				93C2879926366FF70038A18E /* H4XOR News.entitlements */,
 				93C28776263654E50038A18E /* H4XOR_NewsApp.swift */,
 				93C28791263666EA0038A18E /* Views */,
 				93C287862636579D0038A18E /* Models */,
@@ -299,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4XOR News/H4XOR News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4XOR News/Preview Content\"";
 				DEVELOPMENT_TEAM = 9Y857UY3FD;
@@ -311,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gurpreet.H4XOR-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4XOR News/H4XOR News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4XOR News/Preview Content\"";
 				DEVELOPMENT_TEAM = 9Y857UY3FD;
@@ -333,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gurpreet.H4XOR-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
